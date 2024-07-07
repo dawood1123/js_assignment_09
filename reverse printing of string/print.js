@@ -1,9 +1,9 @@
 
-var nam = "Ahmed";
-var nama = ""; // Initialize nama as an empty string
+var nam = prompt("Enter Name"); 
+var str = ""; // Initialize str as an empty string
 
 for (var i = nam.length - 1; i >= 0; i--) { 
-    nama = nama + nam[i]; 
+    str = str + nam[i]; 
 }
 
-console.log(nama); // Outputs "demhA"
+console.log(str); // Outputs "demhA"
